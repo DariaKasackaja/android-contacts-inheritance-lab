@@ -6,9 +6,6 @@ import ru.yandex.practicum.contacts.presentation.base.ContactsOrderTypeUi;
 
 public class FilterContactTypeUi extends ContactsOrderTypeUi {
 
-    private final String type;
-    private final boolean isSelected;
-
     public FilterContactTypeUi(@NonNull String type, boolean isSelected) {
         super(type, isSelected);
     }
